@@ -14,7 +14,7 @@ node () {
         functionInstall('QA')
     }
     stage('XAT') {
-        ehco 'This is the Job4 inside the XAT environment in  the fourth place'
+        echo 'This is the Job4 inside the XAT environment in  the fourth place'
         functionInstall('XAT')
     }
     stage('Prod') {
