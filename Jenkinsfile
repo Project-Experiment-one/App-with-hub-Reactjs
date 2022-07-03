@@ -22,6 +22,6 @@ node () {
         functionInstall('Prod')
     }
 }
-functionInstall() {
+functionInstall(env) {
     echo "This is the function call in the jenkinsfile in "+env
 }
