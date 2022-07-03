@@ -21,4 +21,7 @@ node () {
         echo 'This is the Job5 inside the Prod environment in the fifth place'
         functionInstall('Prod')
     }
- }
+}
+functionInstall() {
+    echo "This is the function call in the jenkinsfile in "+env
+}
